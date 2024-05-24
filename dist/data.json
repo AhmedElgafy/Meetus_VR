@@ -2,12 +2,12 @@
   "chosen": {
     "id": 1,
     "images": [
-      "/Group 1441@2x.png",
-      "/Group 331.png",
-      "/Group 333.png",
-      "/Group 335.png"
+      "/Meetus_VR/Group 1441@2x.png",
+      "/Meetus_VR/Group 331.png",
+      "/Meetus_VR/Group 333.png",
+      "/Meetus_VR/Group 335.png"
     ],
-    "colors": ["/Group 356.png", "/Group 354.png"],
+    "colors": ["/Meetus_VR/Group 356.png", "/Meetus_VR/Group 354.png"],
     "price": 9999,
     "sizes": ["Small", "Medium", "Large", "X Large", "XX Large"],
     "name": "Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit."
@@ -15,7 +15,7 @@
   "suggestions": [
     {
       "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-      "image": "Group 575.png",
+      "image": "/Meetus_VR/Group 575.png",
       "price": 9999,
       "rate": 4.2,
       "brandImage": "Group 346.svg",
@@ -27,10 +27,10 @@
     },
     {
       "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-      "image": "Group 597.png",
+      "image": "/Meetus_VR/Group 597.png",
       "price": 9999,
       "rate": 4.2,
-      "brandImage": "Group 346.svg",
+      "brandImage": "/Meetus_VR/Group 346.svg",
       "discount": "50%",
       "shipping": {
         "inSide": { "from": "Genena mall" },
@@ -39,10 +39,10 @@
     },
     {
       "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-      "image": "Group 583.png",
+      "image": "/Meetus_VR/Group 583.png",
       "price": 9999,
       "rate": 4.2,
-      "brandImage": "Group 346.svg",
+      "brandImage": "/Meetus_VR/Group 346.svg",
       "discount": "50%",
       "shipping": {
         "inSide": false,
@@ -51,10 +51,10 @@
     },
     {
       "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-      "image": "Group 589.png",
+      "image": "/Meetus_VR/Group 589.png",
       "price": 9999,
       "rate": 4.2,
-      "brandImage": "Group 346.svg",
+      "brandImage": "/Meetus_VR/Group 346.svg",
       "discount": "50%",
       "shipping": {
         "inSide": { "from": "Genena mall" },
@@ -64,10 +64,10 @@
 
     {
       "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-      "image": "Group 583.png",
+      "image": "/Meetus_VR/Group 583.png",
       "price": 9999,
       "rate": 4.2,
-      "brandImage": "Group 346.svg",
+      "brandImage": "/Meetus_VR/Group 346.svg",
       "discount": "50%",
       "shipping": {
         "inSide": false,
@@ -76,10 +76,10 @@
     },
     {
       "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-      "image": "Group 589.png",
+      "image": "/Meetus_VR/Group 589.png",
       "price": 9999,
       "rate": 4.2,
-      "brandImage": "Group 346.svg",
+      "brandImage": "/Meetus_VR/Group 346.svg",
       "discount": "50%",
       "shipping": {
         "inSide": { "from": "Genena mall" },
