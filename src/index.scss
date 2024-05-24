@@ -1,0 +1,365 @@
+@import "styles/root";
+@import "styles/body";
+@import "styles/header";
+nav {
+  background: $--primary-color;
+}
+
+.Navigate {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  div {
+    padding: 1.5rem 0 1.5rem 0;
+    display: flex;
+    gap: 0.4rem;
+    width: 90%;
+  }
+  p {
+    @include montserrat(black, $Montserrat-Medium);
+    text-decoration: underline;
+  }
+
+  p:last-child {
+    text-decoration: none;
+  }
+}
+.suggestions {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 2rem 0;
+  .header {
+    h1:first-child {
+      @include montserrat($--secondary-color, $Montserrat-SemiBold);
+    }
+  }
+}
+.scrollable-carts {
+  // margin: 0 auto 0 auto;
+  overflow-y: hidden;
+  display: flex;
+  gap: 2.5rem;
+  &::-webkit-scrollbar {
+    height: 5px;
+    background: #d9d9d9;
+  }
+  h4 {
+    @include montserrat(black, $Montserrat-SemiBold);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $--secondary-color;
+    border-radius: 2rem;
+  }
+  .card {
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    flex: 0 0 auto;
+    height: 100;
+    gap: 0.5rem;
+    .shipping {
+      display: flex;
+      justify-content: space-between;
+    }
+    img {
+      width: 100%;
+      display: block;
+      padding-bottom: 0.5rem;
+      margin: 0 auto 0 auto;
+    }
+    .price {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      h4 {
+        @include montserrat($--secondary-color, $Montserrat-SemiBold);
+      }
+      h5:first-child {
+        text-decoration: line-through;
+      }
+
+      h5:last-child {
+        background: $--primary-color;
+        padding: 0.2rem 0.4rem;
+        font-weight: 600;
+        font-size: 0.6rem;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    }
+    .brandImage img {
+      display: block;
+      width: 100% !important;
+    }
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .rating {
+      display: flex;
+      justify-content: space-around;
+      .stars {
+        display: flex;
+      }
+    }
+    h6 span {
+      font-weight: 700;
+    }
+  }
+}
+footer {
+  background: #3c3c3b;
+  // height: 500rem;
+  .copy-rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0;
+    &::before {
+      content: "";
+      color: #868686;
+      position: absolute;
+      height: 1px;
+      width: 90%;
+      background: #868686;
+      top: 0;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+    h4 {
+      // width: 6rem;
+    }
+    & > * {
+      display: flex;
+      width: 35%;
+      gap: 0.5rem;
+    }
+    div:last-child {
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      & > h4 {
+        font-size: 0.8rem;
+      }
+      img {
+        width: 100px;
+        display: block;
+      }
+    }
+  }
+}
+.footer {
+  padding: 1rem 0;
+  width: 90%;
+  margin: 0 auto;
+  div:first-child {
+    display: flex;
+    gap: 2rem;
+  }
+  .About-Us {
+    width: 50%;
+    position: relative;
+    &::before {
+      content: "";
+      color: #868686;
+      position: absolute;
+      width: 1px;
+      height: 90%;
+      background: #868686;
+      transform: translateY(-50%);
+      right: 0;
+      top: 50%;
+    }
+    & > * {
+      padding: 1rem 0;
+    }
+    padding-right: 1rem;
+  }
+  p,
+  h4,
+  h5,
+  h1 {
+    color: white;
+  }
+}
+.subscribe {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  div:last-child {
+    display: flex;
+    justify-content: space-between;
+  }
+  p {
+    @include montserrat(white, $Montserrat-Light);
+  }
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    @include montserrat(white, $Montserrat-Regular);
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    padding: 0 0 0 2rem;
+    border: none;
+    &::placeholder {
+      @include montserrat($--secondary-color, $Montserrat-SemiBold);
+    }
+  }
+}
+.subscribe-btn {
+  // top: 0px;
+  transform: translateY(-50%);
+  top: 50%;
+  p {
+    @include montserrat(black, $Montserrat-SemiBold);
+  }
+  right: 0.5em;
+  display: flex;
+  gap: 0.5rem;
+  background: $--primary-color;
+  position: absolute;
+  align-items: center;
+  border-radius: 19px;
+  padding: 0.4rem 1rem;
+}
+.about-us {
+  flex-direction: column;
+  gap: 1.7rem !important; // justify-content: left !important;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+  width: 50%;
+  &::before {
+    content: "";
+    color: #868686;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #868686;
+    right: 0;
+  }
+  p {
+    @include montserrat(white, $Montserrat-Light);
+  }
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem !important;
+  justify-content: flex-start !important;
+
+  div {
+    align-items: center;
+    gap: 0.5rem !important;
+    display: flex;
+  }
+}
+.cart {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  background: white;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+.cart-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 80%;
+  margin: 2rem auto;
+  h1 {
+    @include montserrat($--secondary-color, $Montserrat-SemiBold);
+  }
+  h3 {
+    @include montserrat(black, $Montserrat-SemiBold);
+  }
+}
+.cart-card {
+  display: flex;
+  position: relative;
+  // width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+  border: 1px solid #ececec;
+  border-radius: 7px;
+  padding: 0.4rem;
+  h4 {
+    @include montserrat(black, $Montserrat-SemiBold);
+  }
+  h4:last-child {
+    @include montserrat($--secondary-color, $Montserrat-SemiBold);
+  }
+  .productInfo {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    h6 {
+      @include montserrat(black, $Montserrat-SemiBold);
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    // height: 100%;
+  }
+  button {
+    position: absolute;
+  }
+  .productImage {
+    width: 10rem;
+  }
+  .rm-btn {
+    right: 0.4rem;
+    bottom: 0.4rem;
+    background: $--primary-color;
+    border: none;
+    border-radius: 4rem;
+    padding: 0.4rem 2rem;
+    @include montserrat(black, $Montserrat-SemiBold);
+  }
+}
+.ending-btns {
+  display: flex;
+  gap: 1.4rem;
+  justify-content: space-between;
+  & button {
+    display: block;
+    width: 50%;
+    border: none;
+    height: 2.6rem;
+    border-radius: 24px;
+  }
+  & :first-child {
+    @include montserrat(black, $Montserrat-SemiBold);
+    background: $--primary-color;
+  }
+  & :last-child {
+    @include montserrat(white, $Montserrat-SemiBold);
+    background: $--secondary-color;
+  }
+}
+.Total {
+  @include montserrat(black, $Montserrat-SemiBold);
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+$Montserrat-Light: 300;
+$Montserrat-Regular: 400;
+$Montserrat-Medium: 500;
+$Montserrat-SemiBold: 600;
+$--primary-color: #fff200;
+$--secondary-color: #542e90;
+
+@mixin montserrat($color: black, $weight: $Montserrat-Light) {
+  color: $color;
+  font-weight: $weight;
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  @include montserrat;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}

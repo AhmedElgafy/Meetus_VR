@@ -1,0 +1,61 @@
+{
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "./src/images/Group 597.png",
+      "price": 9.999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": { "from": "Genena mall" },
+        "outSide": false
+      }
+    },
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "./src/images/Group 583.png",
+      "price": 9.999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": false,
+        "outSide": { "from": "US", "to": "Egypt", "timeInDays": 4 }
+      }
+    },
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "./src/images/Group 589.png",
+      "price": 9.999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": { "from": "Genena mall" },
+        "outSide": false
+      }
+    },
+    
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "./src/images/Group 583.png",
+      "price": 9.999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": false,
+        "outSide": { "from": "US", "to": "Egypt", "timeInDays": 4 }
+      }
+    },
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "./src/images/Group 589.png",
+      "price": 9.999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": { "from": "Genena mall" },
+        "outSide": false
+      }
+    }
