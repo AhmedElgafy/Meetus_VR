@@ -1,0 +1,90 @@
+{
+  "chosen": {
+    "id": 1,
+    "images": [
+      "/Group 1441@2x.png",
+      "/Group 331.png",
+      "/Group 333.png",
+      "/Group 335.png"
+    ],
+    "colors": ["/Group 356.png", "/Group 354.png"],
+    "price": 9999,
+    "sizes": ["Small", "Medium", "Large", "X Large", "XX Large"],
+    "name": "Adidas black t-shirt lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  },
+  "suggestions": [
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "Group 575.png",
+      "price": 9999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": false,
+        "outSide": { "from": "UK", "to": "Egypt", "timeInDays": 10 }
+      }
+    },
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "Group 597.png",
+      "price": 9999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": { "from": "Genena mall" },
+        "outSide": false
+      }
+    },
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "Group 583.png",
+      "price": 9999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": false,
+        "outSide": { "from": "US", "to": "Egypt", "timeInDays": 4 }
+      }
+    },
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "Group 589.png",
+      "price": 9999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": { "from": "Genena mall" },
+        "outSide": false
+      }
+    },
+
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "Group 583.png",
+      "price": 9999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": false,
+        "outSide": { "from": "US", "to": "Egypt", "timeInDays": 4 }
+      }
+    },
+    {
+      "productName": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "image": "Group 589.png",
+      "price": 9999,
+      "rate": 4.2,
+      "brandImage": "Group 346.svg",
+      "discount": "50%",
+      "shipping": {
+        "inSide": { "from": "Genena mall" },
+        "outSide": false
+      }
+    }
+  ]
+}
